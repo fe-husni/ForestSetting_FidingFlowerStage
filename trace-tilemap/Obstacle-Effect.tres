@@ -1,0 +1,25 @@
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://b5gkwnhpx0mlh"]
+
+[ext_resource type="Texture2D" uid="uid://du1iaveq67e3f" path="res://Assets-Tileset/4 Conjoined Wooden Spikes.png" id="1_joo4v"]
+[ext_resource type="Texture2D" uid="uid://d1if544aj8ege" path="res://Assets-Tileset/fire-ball.png" id="2_w4wsv"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w43h5"]
+texture = ExtResource("1_joo4v")
+0:0/0 = 0
+1:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uy3ge"]
+texture = ExtResource("2_w4wsv")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_w43h5")
+sources/1 = SubResource("TileSetAtlasSource_uy3ge")
